@@ -4,7 +4,8 @@
       <h1 class="text-2xl font-bold">My Simple Vue 3 + Tailwind 4 Site</h1>
     </header>
 
-    <main class="p-6">
+    <main class="p-6 bg-[url(src/assets/images/bg.jpg)] bg-center bg-cover bg-no-repeat
+    bg-hero-img bg-fixed flex items-center justify-center h-screen">
       <section class="max-w-2xl mx-auto text-center">
         <h2 class="text-xl font-semibold mb-4">Welcome!</h2>
         <p class="mb-6 text-gray-400">This is a clean simple page built with Vue 3 and Tailwind CSS 4.</p>

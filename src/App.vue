@@ -1,12 +1,19 @@
 <template>
   <div class="min-w-screen min-h-screen bg-gray-950 text-gray-200">
     <header>
-      <div id="navbar" class="p-4 fixed top-0 left-0 right-0 z-50 transition-colors duration-300
-      text-2xl font-bold">
-        <a href="#" class="hover:text-blue-500">Sign In</a>
-        <a href="#" class="hover:text-blue-500">Light</a>
-        <a href="#" class="hover:text-blue-500">Steady</a>
-        <a href="#" class="hover:text-blue-500">Fierce</a>
+      <div id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-[background] duration-300
+      text-2xl font-bold grid grid-cols-[1fr_auto_1fr] items-center">
+        <div class="flex justify-end gap-x-8">
+          <a href="#" class="hover:text-blue-500 transition-colors">START</a>
+          <a href="#" class="hover:text-blue-500 transition-colors">PLANS</a>
+        </div>
+        <div class="flex justify-center w-40"> <!-- Adjust w-24 as needed -->
+          <img src="@/assets/images/movestyle.svg" alt="Icon" class="w-20 h-20"/>
+        </div>
+        <div class="flex justify-start gap-x-8">
+          <a href="#" class="hover:text-blue-500 transition-colors">CLASSES</a>
+          <a href="#" class="hover:text-blue-500 transition-colors">JOIN NOW</a>
+        </div>
       </div>
     </header>
 
@@ -25,7 +32,7 @@
     </main>
 
     <footer class="text-center text-sm text-gray-500 p-4 mt-8">
-      © 2025 My Simple Site
+      © 2025 Tacio Kikuchi
     </footer>
   </div>
 </template>

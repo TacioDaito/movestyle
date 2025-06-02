@@ -1,18 +1,19 @@
 <template>
   <div class="min-w-screen min-h-screen bg-gray-950 text-gray-200">
     <header>
-      <div id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-[background] duration-300
-      text-2xl font-bold grid grid-cols-[1fr_auto_1fr] items-center">
-        <div class="flex justify-end gap-x-8">
-          <a href="#" class="hover:text-blue-500 transition-colors">START</a>
-          <a href="#" class="hover:text-blue-500 transition-colors">PLANS</a>
-        </div>
-        <div class="flex justify-center w-40"> <!-- Adjust w-24 as needed -->
+      <div id="navbar" class="fixed top-0 left-1/2 transform -translate-x-1/2 z-50 w-150
+      transition-[background] duration-300 text-xl font-bold
+      [clip-path:polygon(0%_0%,100%_0%,95%_100%,5%_100%)] flex justify-center">
+        <div class="flex justify-evenly items-center w-9/10">
+          <div class="flex justify-around gap-x-3 w-50">
+            <a href="#" class="hover:text-blue-500 transition-colors">HOME</a>
+            <a href="#" class="hover:text-blue-500 transition-colors">PLANS</a>
+          </div>
           <img src="@/assets/images/movestyle.svg" alt="Icon" class="w-20 h-20"/>
-        </div>
-        <div class="flex justify-start gap-x-8">
-          <a href="#" class="hover:text-blue-500 transition-colors">CLASSES</a>
-          <a href="#" class="hover:text-blue-500 transition-colors">JOIN NOW</a>
+          <div class="flex justify-around gap-x-3 w-50">
+            <a href="#" class="hover:text-blue-500 transition-colors">CLASSES</a>
+            <a href="#" class="hover:text-blue-500 transition-colors">CONTACT</a>
+          </div>
         </div>
       </div>
     </header>
@@ -43,7 +44,6 @@ function handleClick() {
 }
 window.addEventListener('scroll', () => {
   const header = document.getElementById('navbar');
-  header.classList.toggle('bg-purple-300', window.scrollY > 10);
-  header.classList.toggle('text-gray-900', window.scrollY > 10);
+  header.classList.toggle('bg-black/50', window.scrollY > 10);
 });
 </script>

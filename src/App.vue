@@ -6,14 +6,14 @@
       [clip-path:polygon(0%_0%,100%_0%,95%_100%,5%_100%)] flex justify-center">
         <div class="flex justify-evenly items-center w-9/10">
           <div class="flex justify-evenly gap-x-6 w-50">
-            <div class="relative inline-block">
+            <div class="relative inline-block hover:text-xl hover:font-bold transition-all duration-300">
               <a href="#" class="relative z-10 hover:bg-gradient-to-r hover:from-sky-300 hover:via-purple-300 hover:to-pink-300
-              hover:text-transparent hover:bg-clip-text transition-colors duration-300">HOME</a>
-              <span class="absolute left-0 top-0 z-0">HOME</span>
+              hover:text-transparent hover:bg-clip-text">HOME</a>
+              <span class="absolute left-0 top-0 z-0 hover:opacity-0">HOME</span>
             </div>
             <div class="relative inline-block">
               <a href="#" class="relative z-10 hover:bg-gradient-to-r hover:from-sky-300 hover:via-purple-300 hover:to-pink-300
-              hover:text-transparent hover:bg-clip-text transition-colors duration-300">PLANS</a>
+              hover:text-transparent hover:bg-clip-text transition-all duration-300">PLANS</a>
               <span class="absolute left-0 top-0 z-0">PLANS</span>
             </div>
           </div>
@@ -21,12 +21,12 @@
           <div class="flex justify-evenly gap-x-6 w-50">
             <div class="relative inline-block">
               <a href="#" class="relative z-10 hover:bg-gradient-to-r hover:from-sky-300 hover:via-purple-300 hover:to-pink-300
-              hover:text-transparent hover:bg-clip-text transition-colors duration-300">CLASSES</a>
+              hover:text-transparent hover:bg-clip-text transition-all duration-300">CLASSES</a>
               <span class="absolute left-0 top-0 z-0">CLASSES</span>
             </div>
             <div class="relative inline-block">
               <a href="#" class="relative z-10 hover:bg-gradient-to-r hover:from-sky-300 hover:via-purple-300 hover:to-pink-300
-              hover:text-transparent hover:bg-clip-text transition-colors duration-300">CONTACT</a>
+              hover:text-transparent hover:bg-clip-text transition-all duration-300">CONTACT</a>
               <span class="absolute left-0 top-0 z-0">CONTACT</span>
             </div>
           </div>

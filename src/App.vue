@@ -32,7 +32,7 @@
     <footer class="text-center text-sm text-gray-500 p-4 mt-8">
       © 2025 Tacio Kikuchi
     </footer>
-    
+
   </ContainerComponent>
 </template>
 

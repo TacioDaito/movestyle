@@ -1,9 +1,80 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Permanent Marker';
+  src: url('@/assets/fonts/PermanentMarker-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
-    --animate-gradient: gradient 3s infinite linear;
+    --font-permanent-marker: "Permanent Marker", cursive;
+}
+
+@layer utilities {
+
+    .animate-gradient{
+        animation: gradient 3s infinite linear;
+    }
     @keyframes gradient {
         0% { background-position: 0% 50%; }
         100% { background-position: 100% 50%; }
+    }
+
+    .animate-move-in {
+    --tw-move-in-duration: 0.5s;
+    --tw-move-x: 0;
+    --tw-move-y: 0;
+    animation: move-in var(--tw-move-in-duration) ease-in-out forwards;
+    }
+
+    .animate-move-in-from-top {
+    --tw-move-y: -10px;
+    }
+    .animate-move-in-from-bottom {
+    --tw-move-y: 10px;
+    }
+    .animate-move-from-left {
+    --tw-move-x: -10px;
+    }
+    .animate-move-from-right {
+    --tw-move-x: 10px;
+    }
+
+    @keyframes move-in {
+        from {
+            transform: translateX(var(--tw-move-x)) translateY(var(--tw-move-y));
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0) translateY(0);
+            opacity: 1;
+        }
+    }
+}
+
+@layer components {
+    .dashed-div {
+        background-color: rgba(0, 0, 0, 0.3);
+        -webkit-backdrop-filter: blur(4px); /* Safari */
+        backdrop-filter: blur(4px);
+        border: 1px solid rgb(55, 65, 81);
+        border-radius: 0.75rem;
+        background-image: 
+            repeating-linear-gradient(
+            45deg,
+            transparent,
+            transparent 4px,
+            rgba(60, 60, 60, 0.3) 4px,
+            rgba(60, 60, 60, 0.3) 5px
+            ),
+            repeating-linear-gradient(
+            -45deg,
+            transparent 60px,
+            transparent 180px,
+            rgba(40, 40, 40, 0.3) 180px,
+            rgba(40, 40, 40, 0.3) 181px
+            );
     }
 }

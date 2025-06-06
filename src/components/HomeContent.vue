@@ -4,10 +4,10 @@
         text-shadow-lg/80">
             FROM BEGINNING TO
         </span>
-        <span class="text-8xl text-gray-200 font-bold
-        font-permanent-marker italic text-shadow-lg/80
-        text-shadow-pink-500/90 bg-gradient-to-tl
-        from-red-400 to-pink-500 [background-size:200%_auto] inline-block">
+        <span class="text-8xl font-bold font-permanent-marker
+        italic bg-gradient-to-br drop-shadow-lg/90
+        from-red-500 to-pink-500 to-80% w-90 inline-block
+        bg-clip-text text-transparent">
             BEAST
         </span>
     </div>

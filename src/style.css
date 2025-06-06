@@ -23,10 +23,10 @@
     }
 
     .animate-move-in {
-    --tw-move-in-duration: 0.5s;
+    --tw-move-time: 0.5s;
     --tw-move-x: 0;
     --tw-move-y: 0;
-    animation: move-in var(--tw-move-in-duration) ease-in-out forwards;
+    animation: move-in var(--tw-move-time) ease-in-out forwards;
     }
 
     .animate-move-in-from-top {
@@ -35,10 +35,10 @@
     .animate-move-in-from-bottom {
     --tw-move-y: 10px;
     }
-    .animate-move-from-left {
+    .animate-move-in-from-left {
     --tw-move-x: -10px;
     }
-    .animate-move-from-right {
+    .animate-move-in-from-right {
     --tw-move-x: 10px;
     }
 

@@ -32,10 +32,11 @@
             </span>
         </div>
         <div class="flex justify-center">
-            <div class=" text-3xl my-10 w-50
+            <div class="my-10 w-50
             bg-black/30 backdrop-blur-sm p-2 flex
             items-center justify-center">
-                <NavLink to="#">START NOW</NavLink>
+                <a href="#" class="gradient-text text-transparent
+                font-semibold text-3xl">START NOW</a>
             </div>
         </div>
     </div>

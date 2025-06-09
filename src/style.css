@@ -14,9 +14,36 @@
 
 @layer utilities {
 
-    .animate-gradient{
+    .gradient-text {
+        background: 
+            linear-gradient(
+            90deg,
+            #8ff8ff,
+            #a58fff 16%,
+            #ff8fd8 33%,
+            #a58fff 49%,
+            #8ff8ff 66%,
+            #a58fff 82%,
+            #ff8fd8
+            ) repeat-x;
+        background-size: 300% auto;
+        -webkit-background-clip: text;
+        background-clip: text;
+            border-radius: 0.1rem;
+
+        &:hover {
+            animation: gradient 3s infinite linear;
+        }
+
+        &:active {
+            animation: none;
+        }
+    }
+
+    .animate-gradient-text{
         animation: gradient 3s infinite linear;
     }
+    
     @keyframes gradient {
         0% { background-position: 0% 50%; }
         100% { background-position: 100% 50%; }

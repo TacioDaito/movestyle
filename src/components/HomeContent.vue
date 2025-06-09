@@ -33,8 +33,9 @@
         </div>
         <div class="flex justify-center">
             <div class=" text-3xl my-10 w-50
-            dashed-div p-2 flex items-center justify-center">
-                <NavLink to="#">Start Now</NavLink>
+            bg-black/30 backdrop-blur-sm p-2 flex
+            items-center justify-center">
+                <NavLink to="#">START NOW</NavLink>
             </div>
         </div>
     </div>

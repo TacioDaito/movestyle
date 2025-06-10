@@ -16,20 +16,18 @@
     </header>
 
     <main>
-      <BackgroundImage>
-        <section>
-          <HomeCotent/>  
-        </section>
-        <section>
-          <PlansContent/>
-        </section>
-        <section>
-          <ClassesContent/>
-        </section>
-        <section>
-          <ContactContent/>
-        </section>
-      </BackgroundImage>
+      <section>
+        <HomeCotent/>  
+      </section>
+      <section>
+        <PlansContent/>
+      </section>
+      <section>
+        <ClassesContent/>
+      </section>
+      <section>
+        <ContactContent/>
+      </section>
     </main>
 
     <footer>
@@ -44,7 +42,6 @@ import NavLink from '@/components/NavLink.vue';
 import NavBar from '@/components/NavBar.vue';
 import NavRow from '@/components/NavRow.vue';
 import LogoImage from '@/components/LogoImage.vue';
-import BackgroundImage from '@/components/BackgroundImage.vue';
 import HomeCotent from '@/components/HomeContent.vue';
 import AuthorName from '@/components/AuthorName.vue';
 import ContainerComponent from '@/components/ContainerComponent.vue';

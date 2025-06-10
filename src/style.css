@@ -30,24 +30,21 @@
         -webkit-background-clip: text;
         background-clip: text;
         border-radius: 0.2rem;
+        transition: all 0.2s;
 
         &:hover {
-            animation: gradient 3s infinite linear;
+            animation: gradient 1s infinite linear;
+            text-shadow: 0 0 15px rgba(227, 86, 255, 0.8);
         }
 
         &:active {
             animation: none;
             color: oklch(0.21 0.034 264.665);
             background-clip: border-box;
-            box-shadow: 
-                0 0 15px rgba(227, 86, 255, 0.8);
+            box-shadow: 0 0 15px rgba(227, 86, 255, 0.8);
         }
     }
 
-    .animate-gradient-text{
-        animation: gradient 3s infinite linear;
-    }
-    
     @keyframes gradient {
         0% { background-position: 0% 50%; }
         100% { background-position: 100% 50%; }

@@ -1,5 +1,5 @@
 <template>
-    <div class="italic text-8xl font-bold mt-20 drop-shadow-lg/90">
+    <div class="italic text-8xl font-bold mt-4 drop-shadow-lg/90">
         <div class="animate-move-in animate-move-in-from-left"
         style="--tw-move-x: -50px; --tw-move-time: 1s;">
             <span class="text-gray-200
@@ -32,11 +32,11 @@
             </span>
         </div>
         <div class="flex justify-center">
-            <div class="my-10 w-50
-            bg-black/30 backdrop-blur-sm p-2 flex
+            <div class="mt-10 rounded-sm
+            bg-black/30 backdrop-blur-md flex
             items-center justify-center">
                 <a href="#" class="gradient-text text-transparent
-                font-semibold text-3xl">START NOW</a>
+                font-semibold text-2xl p-2">START NOW</a>
             </div>
         </div>
     </div>

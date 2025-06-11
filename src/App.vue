@@ -31,7 +31,6 @@
     </main>
 
     <footer>
-      <AuthorName/>
     </footer>
 
   </ContainerComponent>

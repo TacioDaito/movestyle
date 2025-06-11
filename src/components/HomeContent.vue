@@ -1,7 +1,7 @@
 <template>
-    <HomeBackground>
+    <HomeBackground class="gap-12">
 
-        <div class="italic text-8xl font-bold mt-4 drop-shadow-lg/90">
+        <div class="italic text-8xl font-bold drop-shadow-lg/90 ">
 
             <div class="animate-move-in"
             style="--tw-move-x: -50px; --tw-move-time: 1s;">
@@ -36,15 +36,17 @@
         </div>
 
         <div class="animate-move-in font-bold flex flex-col items-center
-        mt-16 gap-4"
+        gap-10"
         style="--tw-move-time: 1s;">
 
             <span class="text-4xl text-gray-200 text-shadow-lg/80">
                 We’ve Got You Covered
             </span>
             
-            <a href="#" class="mt-6 gradient-text text-transparent
-            font-bold text-2xl py-2 px-3 backdrop-blur-lg">START NOW</a>
+            <div class="bg-black/30 p-3 backdrop-blur-xl rounded-md">
+                <a href="#" class="gradient-text text-transparent
+                font-bold text-2xl p-1">START NOW</a>
+            </div>
 
         </div>
 

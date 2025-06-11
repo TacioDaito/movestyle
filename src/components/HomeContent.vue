@@ -1,8 +1,8 @@
 <template>
-    <HomeBackground class="gap-12">
+    <HomeBackground class="gap-8 md:gap-14">
 
         <div
-            class="mt-10 gap-2 italic text-6xl md:text-7xl lg:text-8xl font-bold drop-shadow-lg/90 flex flex-col items-center"
+            class="mt-4 md:mt-14 gap-2 italic text-5xl md:text-6xl lg:text-8xl font-bold drop-shadow-lg/90 flex flex-col items-center"
         >
             <div
                 class="gap-2 animate-move-in flex flex-col md:flex-row items-center"
@@ -30,7 +30,7 @@
         </div>
 
         <div
-            class="gap-12 animate-move-in font-bold flex flex-col items-center"
+            class="gap-8 md:gap-14 animate-move-in font-bold flex flex-col items-center"
             style="--tw-move-time: 1s;"
         >
             <span
@@ -39,10 +39,10 @@
                 We’ve Got You Covered
             </span>
 
-            <div class="p-3 bg-black/50 backdrop-blur-md rounded-md">
+            <div class="p-2 bg-black/50 backdrop-blur-md rounded-md">
                 <a
                     href="#"
-                    class="p-1 font-bold text-xl md:text-2xl lg:text-3xl gradient-text text-transparent"
+                    class="p-1 font-bold text-lg md:text-xl lg:text-2xl gradient-text text-transparent"
                 >
                     START NOW
                 </a>

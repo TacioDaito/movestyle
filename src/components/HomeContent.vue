@@ -1,5 +1,5 @@
 <template>
-    <HomeBackground class="gap-[4vh]">
+    <HomeBackground>
 
         <h1
             class="gap-1 mt-6 sm:mt-14 italic text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold drop-shadow-lg/90 flex flex-col items-center"

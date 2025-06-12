@@ -3,6 +3,20 @@
   flex items-center justify-evenly min-w-xl animate-move-in
   dashed-div" style="--tw-move-y: -10px;"
   >
-    <slot></slot>
+    <NavRow>
+      <NavLink to="#">HOME</NavLink>
+      <NavLink to="#">PLANS</NavLink>
+    </NavRow>
+    <LogoImage/>
+    <NavRow>
+      <NavLink to="#">CLASSES</NavLink>
+      <NavLink to="#">CONTACT</NavLink>
+    </NavRow>
   </div>
 </template>
+
+<script setup>
+  import NavLink from '@/components/NavLink.vue';
+  import NavRow from '@/components/NavRow.vue';
+  import LogoImage from '@/components/LogoImage.vue';
+</script>

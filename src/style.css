@@ -29,7 +29,7 @@
         background-size: 360% auto;
         -webkit-background-clip: text;
         background-clip: text;
-        border-radius: 0.2rem;
+        border-radius: 0.4rem;
         transition: all 0.2s;
 
         &:hover {
@@ -75,7 +75,7 @@
         -webkit-backdrop-filter: blur(4px); /* Safari */
         backdrop-filter: blur(4px);
         border: 1px solid rgb(55, 65, 81);
-        border-radius: 0.75rem;
+        border-radius: 0.4rem;
         background-image: 
             repeating-linear-gradient(
             45deg,

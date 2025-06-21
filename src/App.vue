@@ -2,7 +2,7 @@
   <ContainerComponent>
     
     <header>
-      <NavBar/>
+      <nav><NavBar/></nav>
     </header>
 
     <main>

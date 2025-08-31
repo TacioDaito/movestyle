@@ -6,31 +6,26 @@
     </nav>
   </header>
 
-  <ContainerComponent>
+  <main>
+    <section>
+      <HomeCotent />
+    </section>
 
-    <main>
-      <section>
-        <HomeCotent />
-      </section>
+    <section>
+      <PlansContent />
+    </section>
 
-      <section>
-        <PlansContent />
-      </section>
+    <section>
+      <ClassesContent />
+    </section>
 
-      <section>
-        <ClassesContent />
-      </section>
+    <section>
+      <ContactContent />
+    </section>
+  </main>
 
-      <section>
-        <ContactContent />
-      </section>
-
-    </main>
-
-    <footer>
-    </footer>
-
-  </ContainerComponent>
+  <footer>
+  </footer>
 
 </template>
 
@@ -39,6 +34,5 @@ import NavBar from '@/components/NavBar.vue';
 import HomeCotent from '@/components/HomeContent.vue';
 import PlansContent from '@/components/PlansContent.vue';
 import AuthorName from '@/components/AuthorName.vue';
-import ContainerComponent from '@/components/ContainerComponent.vue';
 
 </script>
